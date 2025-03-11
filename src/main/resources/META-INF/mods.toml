@@ -1,0 +1,27 @@
+modLoader="javafml"
+loaderVersion="[47,)" # Compatible with Forge 1.20.1
+license="MIT"
+
+[[mods]]
+modId="zombieoverlords"
+version="1.0"
+displayName="Zombie Overlords"
+authors="Lucas VM"
+description='''A mod that transforms zombies into the true rulers of your Minecraft world.
+They don't burn in daylight and all spawners are converted to zombie spawners.
+Prepare for the zombie invasion!
+'''
+
+[[dependencies.zombieoverlords]]
+modId="forge"
+mandatory=true
+versionRange="[47,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.zombieoverlords]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1]"
+ordering="NONE"
+side="BOTH"
